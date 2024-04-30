@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+  background-image: url('https://play-lh.googleusercontent.com/kVg2NpNug2-kJrHMHV2AqNryLexXXYbL_ABik3CiINwKdeaj-qwKx3B2jCL2QLsYFmA');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px; /* Add margin-bottom */
+}
+.btn-container {
+  margin-top: 90px; /* Add margin to move buttons down */
+}
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  color: #000000;
+  margin-top: auto; /* Move to bottom */
+  margin-bottom: 150px; /* Add margin at the bottom */
+}
+
+.btn {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  height: 150px;
+  width: 150px;
+  border: 4px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.game-over {
+  background-color: rgba(255, 60, 0, 0.8);
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.btn-start {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  margin: 20px;
+  padding: 10px 20px;
+  color: #fef2bf;
+  background-color: transparent;
+  border: 2px solid #fef2bf;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-start:focus,
+.btn-start:active {
+  outline: none;
+}
+
+.btn-start:hover {
+  color: red;
+  border-color: red;
+}

@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly more opaque */
+  color: white; /* Text color */
+  padding: 15px 30px; /* Increased padding for a more prominent header */
+  text-align: center;
+ 
+  margin-bottom: auto; /* Pushes footer to bottom */
+  font-family: cursive;
+}
+
+
+footer {
+  background-color: rgba(4, 4, 4, 0.7); /* Slightly more opaque */
+  padding: 15px 30px; /* Increased padding for a more prominent footer */
+  text-align: center;
+
+  margin-top: auto; /* Pushes footer to bottom */
+  font-family: Cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Takes remaining vertical space */
+  background-image: url('photo.jpg.png');
+  background-size: 45%;
+  background-attachment: auto;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+footer a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(225, 225, 234);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em; /* Increased font size for header */
+  font-family: 'Arial Black', Gadget, sans-serif; /* Stylish font */
+  background: linear-gradient(45deg, red, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header {
+  font-family: 'Font1', cursive, 'Font2', sans-serif; /* Font1 and Font2 are placeholders for actual font names */
+}

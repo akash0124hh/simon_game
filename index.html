@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon game</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <!-- Add audio element for background music -->
+    <audio autoplay loop>
+        <source src="mymusic1.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <header>
+            <h1>Simon Says, "Memory Challenge?"</h1>
+            <h2>Follow the pattern of lights and sounds for as long as you can .... if you can ...</h2>
+        </header>
+        
+        <footer>
+            <p> <a href="index.html">Press any key to enter the Game </a></p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            // Check if the pressed key is not a function key
+            if (!event.key.startsWith('F')) {
+                // Redirect to index.html when any non-function key is pressed
+                window.location.href = 'simon.html';
+            }
+        });
+    </script>
+    
+</body>
+</html>
